@@ -1,5 +1,6 @@
 # Gan de Fabien ETHEVE  
-
+Avant de lancer le projet vérifier au préalable la présence de pytorch sur votre machine.
+Concernant le dataset il est disponible sur le lien suivants : https://www.kaggle.com/datasets/jessicali9530/celeba-dataset
 ### Architecture
 
 ```
