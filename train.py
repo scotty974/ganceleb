@@ -55,8 +55,7 @@ def main():
     ])
 
     # Charger le dataset CelebA
-    # Téléchargez d'abord le dataset depuis: http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
-    # Ou utilisez: torchvision.datasets.CelebA avec download=True
+    # dataset :  https://www.kaggle.com/datasets/jessicali9530/celeba-dataset
     dataset = CelebDataset(r"dataset\img_align_celeba\img_align_celeba", transform=transform)
     dataloader = DataLoader(dataset, batch_size=BATCH_SIZE, shuffle=True, num_workers=NUM_WORKERS)
 
